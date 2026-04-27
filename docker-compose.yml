@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:15
+    container_name: postgres-advpro
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: aaron11
+      POSTGRES_DB: advpro-2024
